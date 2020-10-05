@@ -65,7 +65,7 @@ No utilizo máquinas virtuales pero he buscado por internet el procesador de mi 
 
 ## Ejercicio 4. Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. Usar siempre que sea posible un hipervisor que sea software libre.
 
-VirtualBox es un hipervisor open source de tipo 2. Es el que tengo instalado y el que llevo usando desde principio de carrera.
+VirtualBox es un hipervisor open source de tipo 2. Es el que tengo instalado y el que utilizo cada vez que me lo exigen en una asignatura, ya que yo personalmente no utilizo máquinas virtuales.
 
 
 ![VirtualBox](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_1/img/virtualbox.png)
