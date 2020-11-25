@@ -58,7 +58,7 @@ Lo lanzaremos con la orden `docker run -it centos /bin/bash`
 
 A continuación, vamos a crear un usuario con la orden propia de centos, además de añadirle una contraseña. Para esto último hemos tenido que instalar la orden passwd a través del gestor de paquetes yum.
 
-![adduser](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/add_user.png)
+![adduser](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/adduser.png)
 ![passwd](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/passwd.png)
 
 
