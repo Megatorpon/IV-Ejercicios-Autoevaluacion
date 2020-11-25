@@ -28,15 +28,15 @@ Con esto es suficiente. Podman ya estaría listo para utilizarse.
 
 Primero lanzamos el daemon docker y lo dejamos corriendo en segundo plano.
 
-[!docker](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/sudo_docker.png)
+![docker](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/sudo_docker.png)
 
 Para instalar una imagen de Ubuntu, basta con hacer `docker pull ubuntu`. Con esta, el daemon irá descargando la imagen por capas y una vez finalizada la instalación, se podrá empezar a utilizar (se pueden ejecutar comandos sin necesidad de conectarse a la máquina en sí).
 
-[!pull_ubuntu](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/pull_ubuntu.png)
+![pull_ubuntu](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/pull_ubuntu.png)
 
 Para la imagen de centos, basta con ejecutar el mismo comando, sólo que cambiamos "ubuntu" por "centos" y se nos descargará la última versión de la imagen de centos.
 
-[!pull_centos](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/pull_centos.png)
+![pull_centos](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/pull_centos.png)
 
 Y ya tenemos nuestras dos imágenes descargadas.
 
@@ -46,25 +46,25 @@ Y ya tenemos nuestras dos imágenes descargadas.
 Para la imagen de MongoDB, he elegido una que se llama bitnami/mongodb, la cual se obtiene del Docker Hub mediante el comando `docker pull bitnami/mongodb:latest`
 
 
-[!pull_mondodb](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/pull_mongodb.png)
+![pull_mondodb](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/pull_mongodb.png)
 
 
 
 ## Ejercicio 3. Crear un usuario propio e instalar alguna aplicación tal como nginx en el contenedor creado de esta forma, usando las órdenes propias del sistema operativo con el que se haya inicializado el contenedor.
 
 
-Para este ejercicio vamos a utilizar un contenedor con la imagen de centos, que hemos instalado anteriormente. 
+Para este ejercicio vamos a utilizar un contenedor con la imagen de centos, que hemos instalado anteriormente.
 Lo lanzaremos con la orden `docker run -it centos /bin/bash`
 
 A continuación, vamos a crear un usuario con la orden propia de centos, además de añadirle una contraseña. Para esto último hemos tenido que instalar la orden passwd a través del gestor de paquetes yum.
 
-[!adduser](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/add_user.png)
-[!passwd](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/passwd.png)
+![adduser](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/add_user.png)
+![passwd](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/passwd.png)
 
 
 También vamos a instalar la aplicación que se nos nombra, nginx, usando la orden `dnf install nginx`
 
-[!nginx](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/nginx.png)
+![nginx](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/nginx.png)
 
 
 ## Ejercicio 4. Crear a partir del contenedor anterior una imagen persistente con commit.
@@ -73,7 +73,6 @@ Vamos a hacer un commit de la imagen de centos que usamos antes. De esta manera 
 
 Para ello, abrimos una segunda terminal con la primera todavía con la imagen de centos en ejecución. En la segunda, miramos la id de la imagen con `docker ps` y, posteriormente, usamos la orden `docker commit`.
 
-[!centos_running.png](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/centos_running.png)
+![centos_running.png](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/centos_running.png)
 
-[!commit](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/commit.png)
-
+![commit](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_3/img/commit.png)
