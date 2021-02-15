@@ -53,4 +53,22 @@ En nuestro proyecto de la asignatura usamos Node.js así que vamos a utilizar la
 
 ![vercel_node](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_5/img/vercel_node.png)
 
-Siguiendo lo anterior, crearemos un directorio api en el que guardaremos la función que se nos proporciona en un archivo [hello.js](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/api/hello.js).
+Siguiendo lo anterior, crearemos un directorio api en el que guardaremos la función que se nos proporciona en un archivo [hello.js](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/api/hello.js). Hacemos push a nuestro repositorio, desplegamos con la orden `vercel --prod` y ya podremos visitar la función con el [link](https://iv-ejercicios-autoevaluacion.vercel.app/api/hello.js) que nos proporciona Vercel.
+
+## Ejercicio 3. Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
+
+Lo primero de todo es acceder a la web de [Netlify](https://www.netlify.com/) y registrarnos con nuestra cuenta de Github, autorizando a Netlify con los permisos que requiere.
+
+Tras esto, debemos descargar el SDK con la orden `npm i -g netlify-cli`.
+
+![netlify_install](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_5/img/netlify_install.png)
+
+Como vemos en la anterior imagen, luego de instalarlo es necesario logearnos, lo cual nos redirigirá a una página en la que permitiremos el acceso.
+
+![netlify_auto](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_5/img/netlify_auto.png)
+
+A continuación, lo desplegamos con `netlify deploy`
+
+![netlify_deploy](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_5/img/netlify_deploy.png)
+
+El siguiente paso es visitar la página de Netlify del proyecto y establecer la carpeta api como la carpeta que alojará la función de prueba (extraída de las [funciones](https://functions-playground.netlify.app/) de ejemplo que nos proporcionan)
