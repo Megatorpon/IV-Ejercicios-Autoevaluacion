@@ -71,4 +71,6 @@ A continuación, lo desplegamos con `netlify deploy`
 
 ![netlify_deploy](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_5/img/netlify_deploy.png)
 
-El siguiente paso es visitar la página de Netlify del proyecto y establecer la carpeta api como la carpeta que alojará la función de prueba (extraída de las [funciones](https://functions-playground.netlify.app/) de ejemplo que nos proporcionan)
+El siguiente paso es visitar la página de Netlify del proyecto y establecer la carpeta api como la carpeta que alojará la función de prueba (extraída de las [funciones](https://functions-playground.netlify.app/) de ejemplo que nos proporcionan). Hacemos deploy con el flag `--prod` y ya estaría preparada para visitarse con el [link](https://modest-rosalind-311336.netlify.app/.netlify/functions/netlify_hello) que se nos proporciona.
+
+![example](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_5/img/netlify_deploy.png)
