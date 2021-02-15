@@ -1,0 +1,19 @@
+{
+  "name": "iv-ejercicios-autoevaluacion",
+  "version": "1.0.0",
+  "description": "Repositorio en el que se añadirán los ejercicios de autoevaluación de los diferentes temas de la asignatura Infraestructura Virtual de cuarto curso de Ingeniería Informática en la UGR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/issues"
+  },
+  "homepage": "https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion#readme"
+}
